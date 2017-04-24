@@ -1,2 +1,0 @@
-# kazoo
-Kazoo template page
