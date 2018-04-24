@@ -1,0 +1,21 @@
+@media screen and (min-width: $kazoo-grid-breakpoint) {
+  .admin {
+    height: 100vh;
+    display: flex;
+
+    &-sidebar {
+      width: 280px;
+      overflow: auto;
+    }
+
+    &-body {
+      flex: 1;
+      overflow: auto;
+    }
+  }
+
+  .vh-100 {
+    height: 100vh;
+    overflow: auto;
+  }
+}

@@ -1,6 +1,8 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
+  "name": "kazoo",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "disjfa <disjfa@disjfa.nl>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,10 +13,16 @@
     "e2e:open": "vue-cli-service e2e:open"
   },
   "dependencies": {
+    "bootstrap": "^4.1.0",
+    "font-awesome": "^4.7.0",
     "register-service-worker": "^1.0.0",
+    "uuid": "^3.2.1",
     "vue": "^2.5.13",
+    "vue-analytics": "^5.10.2",
+    "vue-route-timeline": "^0.1.3",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
@@ -26,9 +34,9 @@
     "@vue/eslint-config-airbnb": "^3.0.0-beta.6",
     "@vue/test-utils": "^1.0.0-beta.10",
     "chai": "^4.1.2",
-    "lint-staged": "^6.0.0",
+    "lint-staged": "^7.0.4",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
+    "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.13"
   },
   "browserslist": [
